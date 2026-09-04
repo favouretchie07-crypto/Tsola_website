@@ -1,0 +1,43 @@
+<html>
+    <body>
+        <div id="title">
+            <h1>Welcome to Tsolayemi's web page</h1>
+            <p>This is where I practice my coding</p>
+             <button onclick="whereIPracticeMyCoding()">Where I practice my coding</button>
+        </div>
+    </body>
+ </html>
+
+ <style>
+
+    body {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3TWw-Vu5G50allCK6cniWsG_jNYAQHLK7HzVvRiP1N5KVCt0z6Ta3eTr5&s=10');
+        background-size: cover;
+        
+    }
+
+    h1 {
+        color: blue;
+    }
+
+    button:hover {
+        background-color: blue;
+        cursor: pointer;
+        font-size: 20px;
+     }
+
+#title {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+</style>
+
+<script>
+
+    function whereIPracticeMyCoding() {
+        alert("I am learning!");
+        document.body.style.background = 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQsLsv72bCmfin856nK42qtpAI8ir2zJfhkB7wjVbAOg&s")';
+        document.getElementById("title").style.visibility = "hidden";
+        }
+    </script>
