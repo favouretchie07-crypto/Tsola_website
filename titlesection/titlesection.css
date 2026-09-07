@@ -4,6 +4,7 @@
  }
  
 #title {
+    color: var(--titleSectionPrimaryColor);
     text-align: center;
     padding-top: 200px;
     background-image: url('../Images/Mountain.jpg');
