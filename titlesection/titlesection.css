@@ -2,6 +2,7 @@
     {
     --titleSectionPrimaryColor: rgb(0, 0, 128);
     --titleSectionSecondaryColor: rgb(129, 174, 197);
+    --titleSectionTertiaryColor: rgb(69, 155, 190);
  }
  
 #title {
