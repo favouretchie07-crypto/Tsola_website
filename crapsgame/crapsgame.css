@@ -14,8 +14,32 @@
     height: min(500px, 57vw);
     border: solid white 2px;
     margin: 80px auto 0 auto;
-    background-image: url('../Images/craps\ table.jpeg');
+    background-image: url('../Images/images\ \(3\).jpeg');
     background-size: cover;
-    background-position: center top;
+    background-position: center;
+;
 
+}
+
+.craps-registration-pane {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.craps-registartion-input {
+    background: none;
+    border: none;
+    border-bottom: solid white 1px;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+}
+
+.craps-registartion-input:focus {
+    outline: none;
+}
+
+.craps-registration-continue:hover {
+    cursor: pointer;
+    font-weight: bold;
 }
