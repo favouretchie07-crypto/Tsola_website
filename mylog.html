@@ -39,17 +39,20 @@
                     <div class="main-section" id="craps-game">
                         <h1 class="craps-game-title">Craps Casino Game</h1>
                         <div class="craps-game-container">
-                            <div class="craps-registration-pane">
+                            <div id="craps-registration-pane">
                                 <div>
                                     Enter username to begin
                                 </div>
                                 <div>
-                                    <input class="craps-registartion-input" id="craps-username-input">
+                                    <input class="craps-registration-input" id="craps-username-input">
                                 </div>
                                 <div class="craps-registration-continue" onclick="registerCrapsPlayer()" id="craps-username-input">
                                     Continue
                                 </div>
                             </div>
+                            <div id="craps-main-section">
+                            MAIN SECTION HERE
+                        </div>
                         </div>
                     </div>
     </body>
@@ -87,15 +90,14 @@
         
         </style>
 
+        <script src="./crapsgame/crapsgame.js"></script>
 <script>
 
     function whereIPracticeMyCoding() {
         alert("I am learning!");
         document.body.style.background = 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQsLsv72bCmfin856nK42qtpAI8ir2zJfhkB7wjVbAOg&s")';
-        document.getElementById("title").style.visibility = "hidden";
+        document.getElementById("title").style.visibility = "hidden"
         }
 
-        function registerCrapsPlayer () {
-            let crapsUsername = document.getElementById("craps-username-input").value
-        }
+    
     </script>

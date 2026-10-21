@@ -21,12 +21,12 @@
 
 }
 
-.craps-registration-pane {
+#craps-registration-pane {
     margin-top: 35px;
     text-align: center;
 }
 
-.craps-registartion-input {
+.craps-registration-input {
     background: none;
     border: none;
     border-bottom: solid white 1px;
@@ -35,11 +35,15 @@
     text-align: center;
 }
 
-.craps-registartion-input:focus {
+.craps-registration-input:focus {
     outline: none;
 }
 
 .craps-registration-continue:hover {
     cursor: pointer;
     font-weight: bold;
+}
+
+#craps-main-section {
+    display: none;
 }
