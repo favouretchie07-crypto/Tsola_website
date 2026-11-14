@@ -12,6 +12,11 @@ const crapsMainSection = "craps-main-section"
 const crapsStatsUsername = "craps-stats-username"
 const CrapsStatsMoney = "craps-stats-money"
 const crapsStatsRounds = "craps-stats-rounds"
+
+// In-game variables
+let currentMoney = startingMoney
+let currentRounds = startingRounds
+
    
    function registerCrapsPlayer () {
         crapsUsername = document.getElementById(crapsUsernameInput).value
@@ -37,8 +42,10 @@ function showMainGameSection () {
  
 function setupFirstRound () {
     document.getElementById(crapsStatsUsername).innerHTML = crapsUsername
-    setMoney(startingMoney)
-    setRounds(startingRounds)
+    currentMoney = startingMoney
+    currentRounds = startingRounds
+    setMoney(startingMoney)         
+    setRounds(currentRounds)
 }
 
 function setMoney (money) {
