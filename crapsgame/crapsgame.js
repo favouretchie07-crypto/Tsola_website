@@ -44,7 +44,7 @@ function setupFirstRound () {
     document.getElementById(crapsStatsUsername).innerHTML = crapsUsername
     currentMoney = startingMoney
     currentRounds = startingRounds
-    setMoney(startingMoney)         
+    setMoney(startingMoney)                   
     setRounds(currentRounds)
 }
 
